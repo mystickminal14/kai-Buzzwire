@@ -1,0 +1,144 @@
+.mod{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    flex-direction: column;
+   
+}
+.search{
+ width:80%;
+    border-top-style: groove;
+    display:flex;
+ 
+    justify-content: center;
+
+}
+.vum{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbth{
+    margin-top:40px;
+    width:80px;
+    padding:0.5em;
+    font-family:'righteous';
+    background:black;
+    border:1px solid black;
+    color:white;
+}
+input[type='text']{
+    margin-top:40px;
+    width:600px;
+    padding:0.5em;
+    font-family:'poppins';
+}
+.read a{
+  font-family:'righteous';
+  color:white;
+}
+.card{
+    width:370px;
+    border:1px solid yellow;
+    box-shadow:0px 0px 15px skyblue;
+    padding:0.6em;
+    margin-bottom:100px;
+    transition:0.3s ease-in-out;
+}
+.ca{
+    width:350px;
+   
+    height:250px;
+}
+h3{
+    font-family:'poppins';
+
+}
+p{
+ text-align: justify;
+ font-family:'poppins';
+}
+
+.ca img{
+    width:350px;
+    height:250px;
+    object-fit: cover;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    gap:0.5em;
+}
+.read{
+    width:100px;
+   color:white;
+ 
+    background:black;
+ font-family:'righteous';
+    padding:0.3em;
+    font-size:0.9rem;
+    outline:none;
+  
+    border:1px solid black;
+}
+.so{
+    margin-top:2px;
+    display:flex;
+    justify-content: space-between;
+}
+ .so p{
+ 
+    font-size:0.8rem;
+}
+
+.card:hover{
+    background: linear-gradient(45deg, #87CEEB, #FFFFFF, #f1e49c);
+}.searcheditems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    overflow-x:hidden ;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 382px) {
+    .card {
+      width: 300px;
+    }
+    .ca {
+      width: 280px;
+      height: 190px;
+    }
+    .ca img {
+      width: 280px;
+      height: 190px;
+      object-fit: cover;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .searcheditems {
+      
+      flex-direction: column;
+      gap: 0.3em;
+    }
+  }
+  .relc{
+    text-transform: uppercase;
+    pointer-events: none;
+    background:black;
+    font-family:'righteous';
+    color:white;
+    padding:0.5em;
+  
+    letter-spacing: 0.2em;
+    outline:none;
+    border:1px solid black;
+  }
+  .con{
+    margin-top:40px;
+    border-bottom-style: groove;
+  }

@@ -1,0 +1,121 @@
+.category{
+    pointer-events: none;
+    background:black;
+    font-family:'righteous';
+    color:white;
+    padding:0.5em;
+  
+    letter-spacing: 0.2em;
+    outline:none;
+    border:1px solid black;
+}
+.b{
+    display: flex;
+
+    
+}
+.allCards{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    flex-wrap: wrap;
+
+}
+.bigCards{
+    width:500px;
+    display:flex;
+    gap:0.4em;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.7), 
+    0px 0px 10px rgba(0, 255, 0, 0.7), 
+    0px 0px 10px rgba(0, 0, 255, 0.7);
+    padding:0.5em;
+    border-radius:10px;
+    transition:0.3s ease-in-out;
+
+}
+.bigCards:hover{
+    background:black;
+    color:white;
+}
+.bigCards:hover .gemm{
+    background:white;
+    border:2px solid skyblue;
+ 
+}
+.bigCards:hover .gemm a{
+    color:black;
+}
+.heaf{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2em;
+   border-bottom-style: groove;
+}
+.heaf h1{
+    font-family:'Staatliches';
+    letter-spacing: 0.1em;
+}
+
+.heaf p{
+    font-family:'hammersmith one';
+}
+.close{
+    display:flex;
+    justify-content: space-between;
+}
+.desc{
+    font-family:'poppins';
+    width:480px;
+    text-align: justify;
+}
+
+.gemm{
+    background:darkslategray;
+    box-shadow:0p 0px 5px;
+    padding:0.3em;
+    border:1px solid black;
+    transition:0.3s ease-in;
+}
+.gemm a{
+    font-family: 'hammersmith one';
+    letter-spacing:0;
+
+    transition:0.3s ease-in;
+    color:white;
+}
+@media (max-width:600px){
+    .category{
+        margin-top:60px;
+    }
+    .b{
+        justify-content: center;
+    }
+}
+@media (max-width:525px){
+ .bigCards{
+    width:400px;
+ }
+ .desc{
+    width:380px;
+ }
+}
+@media (max-width:413px){
+    .bigCards{
+       width:350px;
+    }
+    .desc{
+       width:330px;
+    }
+   }
+   @media (max-width:413px){
+    .bigCards{
+       width:290px;
+    }
+    .desc{
+       width:270px;
+    }
+   }
