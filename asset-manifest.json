@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kai-Buzzwire/static/css/main.6aefb35b.css",
+    "main.js": "/kai-Buzzwire/static/js/main.3708b30e.js",
+    "index.html": "/kai-Buzzwire/index.html",
+    "main.6aefb35b.css.map": "/kai-Buzzwire/static/css/main.6aefb35b.css.map",
+    "main.3708b30e.js.map": "/kai-Buzzwire/static/js/main.3708b30e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aefb35b.css",
+    "static/js/main.3708b30e.js"
+  ]
+}
